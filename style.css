@@ -211,3 +211,8 @@ header img {
 #champ-des {
   color: #4CAF50;
 }
+
+maintext {
+  font-size: 1.5rem;
+  width: 80%; 
+}
