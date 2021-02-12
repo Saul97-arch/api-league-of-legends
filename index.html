@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Api League of Legends</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#"><img src="logo.png" alt="logo"></a>
+      <select name="champs" id="selectChamp"></select>
+      <ul class="menu-items">
+        <li><a href="index.html">Champions</a></li>
+        <li><a href="items.html">Items</a></li>
+        <li><a href="sumon_spells.html">Summoner spells</a></li>
+      </ul>
+    </header>
+    <section class="main-section">
+      <div class="champ-col-square champ-col">
+        <div class="select-col">
+         
+          <h1 id="champ-name"></h1>
+          <h2 id="champ-des"></h2>
+          <div id="champ-imgs"></div>
+        </div>
+      </div>
+      <div class="champ-col-square champ-col">
+        <img id="great-img">
+        <div class="hab-div">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+      </div>
+      <div class="champ-spells champ-col">
+          <h1>Status per level</h1>
+          <select name="level" id="level">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+          </select>
+          <h1 id="nameSpell"></h1>
+          <p id="info"></p>
+          <div class="status-lvl">
+              <div id="hp"></div>
+              <div id="hplvl"></div>
+              <div id="hregen"></div>
+              <div id="mp"></div>
+              <div id="mplvl"></div>
+              <div id="mregen"></div>
+              <div id="ms"></div>
+              <div id="atacsped"></div>
+              <div id="atspdlvl"></div>
+              <div id="mr"></div>
+              <div id="mrlvl"></div>
+              <div id="damage"></div>
+              <div id="dmglvl"></div>
+              <div id="dist"></div>
+          </div>
+      </div>
+      <footer>
+          <h1>Hello my name is Saul, this website was developed with the support of the <a href="https://faculdadeiv2.com.br/" target="_blank">IV2</a> team.</h1>
+          <img src="perfil.jpg" alt="sou eu" srcset="">
+      </footer>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
